@@ -10,7 +10,7 @@ hCaptcha là một loại captcha khá mới thực sự giống với reCAPTCHA
 
 ### Request
 
-**POST :** `https//:omocaptcha.com/api/createJob`
+**POST :** `https://omocaptcha.com/api/createJob`
 
 | Name               | Type | Required | Description                                                                                                                                                                                        |
 | ------------------ | ---- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +65,7 @@ Content-Type: application/json
 
 ### Request
 
-**POST :** `https//:omocaptcha.com/api/getJobResult`
+**POST :** `https://omocaptcha.com/api/getJobResult`
 
 | Name       | Type   |  Required | Description               |
 | ---------- | ------ | --------- | ------------------------- |

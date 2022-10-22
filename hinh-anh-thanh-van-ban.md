@@ -8,7 +8,7 @@ Captcha thông thường là một hình ảnh có chứa văn bản bị bóp m
 
 ### Request
 
-**POST :** `https//:omocaptcha.com/api/createJob`
+**POST :** `https://omocaptcha.com/api/createJob`
 
 | Name               | Type | Required | Description                 |
 | ------------------ | ---- | -------- | --------------------------- |
@@ -61,7 +61,7 @@ Content-Type: application/json
 
 ### Request
 
-**POST :** `https//:omocaptcha.com/api/getJobResult`
+**POST :** `https://omocaptcha.com/api/getJobResult`
 
 | Name       | Type   |  Required | Description               |
 | ---------- | ------ | --------- | ------------------------- |

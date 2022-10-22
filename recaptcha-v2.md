@@ -8,7 +8,7 @@ reCAPTCHA V2 còn được gọi là Tôi không phải là  reCAPTCHA là một
 
 ### Request
 
-**POST :** `https//:omocaptcha.com/api/createJob`
+**POST :** `https://omocaptcha.com/api/createJob`
 
 | Name               | Type | Required | Description                                                                                                                                                                                        |
 | ------------------ | ---- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +65,7 @@ Content-Type: application/json
 
 ### Request
 
-**POST :** `https//:omocaptcha.com/api/getJobResult`
+**POST :** `https://omocaptcha.com/api/getJobResult`
 
 | Name       | Type   |  Required | Description               |
 | ---------- | ------ | --------- | ------------------------- |
