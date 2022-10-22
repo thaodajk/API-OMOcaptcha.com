@@ -6,9 +6,21 @@ Kiểm tra số dư bằng của tài khoản bằng khóa tài khoản khách h
 
 ### Request
 
-&#x20;**GET :**  `http://omocaptcha.com/api/getBalance?api_token=`<mark style="color:blue;">`YOUR_API_KEY`</mark>
+&#x20;**GET :** `https://omocaptcha.com/api/getBalance`
 
-**Ví dụ :** _`http://omocaptcha.com/api/getBalance?api_token=q2FBalYHO6JNIOoohREEipwJ`_
+| Name       | Type | Required | Description               |
+| ---------- | ---- | -------- | ------------------------- |
+| api\_token | text | yes      | Khóa tài khoản khách hàng |
+
+```json
+GET/createTask HTTP/1.1
+Host: omocaptcha.com
+Content-Type: application/json
+
+{
+    "api_token": "YOUR_API_KEY"
+}
+```
 
 ### Phản hồi
 

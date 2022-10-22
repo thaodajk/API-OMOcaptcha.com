@@ -4,9 +4,21 @@
 
 ### Request
 
-&#x20;**GET :**  `http://omocaptcha.com/api/getService?api_token=`<mark style="color:blue;">`YOUR_API_KEY`</mark>
+&#x20;**GET :**  `https://omocaptcha.com/api/getService`
 
-**Ví dụ :** _`http://omocaptcha.com/api/getService?api_token=q2FBalYHO6JNIOoohREEipwJ`_
+| Name        | Type | Required | Description               |
+| ----------- | ---- | -------- | ------------------------- |
+| `api_token` | text | yes      | Khóa tài khoản khách hàng |
+
+```json
+GET/createTask HTTP/1.1
+Host: omocaptcha.com
+Content-Type: application/json
+
+{
+    "api_token": "YOUR_API_KEY"
+}
+```
 
 ### Phản hồi
 
