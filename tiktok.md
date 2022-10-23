@@ -41,7 +41,7 @@ Content-Type: application/json
 		"type_job_id": "ID",
 		"base64": "image as base64 encoded",
 		"widthview": "340",
-		"weightview": "212",
+		"weightview": "212"
 	}
 }
 ```
@@ -278,15 +278,23 @@ Content-Type: application/json
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-| Name               | Type | Required | Description                                                                                                       |
-| ------------------ | ---- | -------- | ----------------------------------------------------------------------------------------------------------------- |
-| api\_token         | text | yes      | Khóa tài khoản khách hàng                                                                                         |
-| data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                                                                       |
-| data.base64inside  | text | yes      | Hình ảnh bên trong được mã hóa base64![](.gitbook/assets/a8d6b410bf004652a4bc46c04a9e0ad1\_tplv-71rtze2081-1.png) |
-| data.base64outside | text | yes      | Hình ảnh bên ngoài được mã hóa base64![](.gitbook/assets/1b9cda9c8d6444fa8d3097c2ed5adfc8\_tplv-71rtze2081-1.png) |
+| Name                | Type | Required | Description                           |
+| ------------------- | ---- | -------- | ------------------------------------- |
+| api\_token          | text | yes      | Khóa tài khoản khách hàng             |
+| data.type\_job\_id  | text | yes      | Id dịch vụ captcha cần giải           |
+| data.image\_base64  | text | yes      | Hình ảnh bên trong được mã hóa base64 |
 
-```json
-POST /createTask HTTP/1.1
+<div>
+
+<figure><img src=".gitbook/assets/a8d6b410bf004652a4bc46c04a9e0ad1_tplv-71rtze2081-1.png" alt=""><figcaption><p><strong>Ảnh bên trong</strong></p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/1b9cda9c8d6444fa8d3097c2ed5adfc8_tplv-71rtze2081-1.png" alt=""><figcaption><p><strong>Ảnh bên ngoài</strong></p></figcaption></figure>
+
+</div>
+
+<pre class="language-json"><code class="lang-json">POST /createTask HTTP/1.1
 Host: api.anycaptcha.com
 Content-Type: application/json
 
@@ -294,10 +302,11 @@ Content-Type: application/json
 	"api_token": "YOUR_API_KEY",
 	"data": {
 		"type_job_id": "ID",
-Ảnh""
-	 }
-}
-```
+<strong>		"image_base64 ":"Ảnh bên trong | Ảnh bên ngoài"
+</strong>	 }
+}</code></pre>
+
+<mark style="color:red;">Lưu ý</mark> : Hai chuỗi base64 được ngăn cách băng ký tự '|'
 
 #### Phản hồi
 
