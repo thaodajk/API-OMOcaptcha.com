@@ -26,7 +26,7 @@ Captcha tiktok là một loại hình ảnh xác thực phổ biến trông gi�
 | ------------------ | ------ | -------- | --------------------------------------------------------------------------------------------------------- |
 | api\_token         | text   | yes      | Khóa tài khoản khách hàng                                                                                 |
 | data.type\_job\_id | text   | yes      | Id dịch vụ captcha cần giải                                                                               |
-| data.base64        | text   | yes      | Hình ảnh được mã hóa base64![](.gitbook/assets/3d\_2385\_28c275925dc887e6126d72aa8a9764c2e71515a2\_1.jpg) |
+| data.image\_base64 | text   | yes      | Hình ảnh được mã hóa base64![](.gitbook/assets/3d\_2385\_28c275925dc887e6126d72aa8a9764c2e71515a2\_1.jpg) |
 | data.widthview     | number | yes      | Chiều rộng ảnh hiển thị trên web![](<.gitbook/assets/Ảnh chụp màn hình (53) (2).png>)                 |
 | data.weightview    | number | yes      | Chiều cao ảnh hiển thị trên web![](<.gitbook/assets/Ảnh chụp màn hình (53).png>)                      |
 
@@ -39,7 +39,7 @@ Content-Type: application/json
 	"api_token": "YOUR_API_KEY",
 	"data": {
 		"type_job_id": "ID",
-		"base64": "image as base64 encoded",
+		"image_base64": "image as base64 encoded",
 		"widthview": "340",
 		"weightview": "212"
 	}
@@ -103,12 +103,7 @@ Content-Type: application/json
 {
 	"error": false,
 	"status": "success",
-	"result": {
-		"x1": "50",
-		"y1": "50",
-		"x2": "50",
-		"y2": "50",
-	}
+	"result": "x1_y1_x2_y2"
 }
 ```
 
@@ -155,7 +150,7 @@ Content-Type: application/json
 | ------------------ | ---- | -------- | -------------------------------------------------------------------------------------------------------------------- |
 | api\_token         | text | yes      | Khóa tài khoản khách hàng                                                                                            |
 | data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                                                                          |
-| data.base64        | text | yes      | Hình ảnh chụp màn hình được mã hóa base64![](.gitbook/assets/309005076\_413228540997215\_3017107437478481668\_n.jpg) |
+| data.image\_base64 | text | yes      | Hình ảnh chụp màn hình được mã hóa base64![](.gitbook/assets/309005076\_413228540997215\_3017107437478481668\_n.jpg) |
 
 ```json
 POST /createTask HTTP/1.1
@@ -166,7 +161,7 @@ Content-Type: application/json
 	"api_token": "YOUR_API_KEY",
 	"data": {
 		"type_job_id": "ID",
-		"base64": "image as base64 encoded",
+		"image_base64": "image as base64 encoded",
 	 }
 }
 ```
@@ -228,12 +223,7 @@ Content-Type: application/json
 {
 	"error": false,
 	"status": "success",
-	"result": {
-		"x1": "50",
-		"y1": "50",
-		"x2": "50",
-		"y2": "50",
-	}
+	"result": "x1_y1_x2_y2"
 }
 ```
 
@@ -365,9 +355,7 @@ Content-Type: application/json
 {
 	"error": false,
 	"status": "success",
-	"result": {
-		"slide": "50"
-	}
+	"result": "50"
 }
 ```
 
