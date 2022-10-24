@@ -27,8 +27,8 @@ Captcha tiktok là một loại hình ảnh xác thực phổ biến trông gi�
 | api\_token         | text   | yes      | Khóa tài khoản khách hàng                                                                                 |
 | data.type\_job\_id | text   | yes      | Id dịch vụ captcha cần giải                                                                               |
 | data.image\_base64 | text   | yes      | Hình ảnh được mã hóa base64![](.gitbook/assets/3d\_2385\_28c275925dc887e6126d72aa8a9764c2e71515a2\_1.jpg) |
-| data.widthview     | number | yes      | Chiều rộng ảnh hiển thị trên web![](<.gitbook/assets/Ảnh chụp màn hình (53) (2).png>)                 |
-| data.weightview    | number | yes      | Chiều cao ảnh hiển thị trên web![](<.gitbook/assets/Ảnh chụp màn hình (53).png>)                      |
+| data.width\_view   | number | yes      | Chiều rộng ảnh hiển thị trên web![](<.gitbook/assets/Ảnh chụp màn hình (53) (2).png>)                 |
+| data.height\_view  | number | yes      | Chiều cao ảnh hiển thị trên web![](<.gitbook/assets/Ảnh chụp màn hình (53).png>)                      |
 
 ```json
 POST /createTask HTTP/1.1
@@ -40,8 +40,8 @@ Content-Type: application/json
 	"data": {
 		"type_job_id": "ID",
 		"image_base64": "image as base64 encoded",
-		"widthview": "340",
-		"weightview": "212"
+		"width_view": 340,
+		"height_view": 212
 	}
 }
 ```
@@ -161,7 +161,7 @@ Content-Type: application/json
 	"api_token": "YOUR_API_KEY",
 	"data": {
 		"type_job_id": "ID",
-		"image_base64": "image as base64 encoded",
+		"image_base64": "image as base64 encoded"
 	 }
 }
 ```
