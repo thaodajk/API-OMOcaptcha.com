@@ -292,7 +292,7 @@ Content-Type: application/json
 	"api_token": "YOUR_API_KEY",
 	"data": {
 		"type_job_id": "ID",
-<strong>		"image_base64 ":"Ảnh bên trong | Ảnh bên ngoài"
+<strong>		"image_base64":"Ảnh_bên_trong|Ảnh_bên_ngoài"
 </strong>	 }
 }</code></pre>
 
