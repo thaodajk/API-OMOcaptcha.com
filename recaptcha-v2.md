@@ -27,9 +27,8 @@ Content-Type: application/json
 	"api_token": "YOUR_API_KEY",
 	"data": {
 		"type_job_id": "ID",
-		"websiteURL": "http://mywebsite.com/recaptcha/test.php",
-		"websiteKey": "6Lc_aCMTAAAAABx7u2N0D1XnVbI_v6ZdbM6rYf16",
-		"isInvisible": false
+		"website_url": "http://mywebsite.com/recaptcha/test.php",
+		"website_key": "6Lc_aCMTAAAAABx7u2N0D1XnVbI_v6ZdbM6rYf16"
 	}
 }
 ```
@@ -92,7 +91,7 @@ Content-Type: application/json
 	"error": false,
 	"status": "success",
 	"result":{
-		"gRecaptchaResponse": "3AHJ_VuvYIBNBW5yyv0zRYJ75VkOKvhKj9_xGBJKnQim...."
+		"gRecaptchaResponse":'3AHJ_VuvYIBNBW5yyv0zRYJ75VkOKvhKj9_xGBJKnQim....'"
 	}
 }
 ```
