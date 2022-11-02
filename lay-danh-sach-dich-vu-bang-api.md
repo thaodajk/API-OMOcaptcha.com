@@ -1,10 +1,10 @@
-# Lấy danh sách dịch vụ
+# Lấy danh sách dịch vụ bằng API
 
 ## 1.Tạo yêu cầu
 
 ### Request
 
-&#x20;**GET :**  `https://omocaptcha.com/api/getService`
+&#x20;**POST :**  `https://omocaptcha.com/api/getService`
 
 | Name        | Type | Required | Description               |
 | ----------- | ---- | -------- | ------------------------- |

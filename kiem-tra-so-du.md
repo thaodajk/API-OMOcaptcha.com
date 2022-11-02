@@ -6,7 +6,7 @@ Kiểm tra số dư bằng của tài khoản bằng khóa tài khoản khách h
 
 ### Request
 
-&#x20;**GET :** `https://omocaptcha.com/api/getBalance`
+&#x20;**POST:** `https://omocaptcha.com/api/getBalance`
 
 | Name       | Type | Required | Description               |
 | ---------- | ---- | -------- | ------------------------- |
