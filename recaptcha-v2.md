@@ -91,7 +91,7 @@ Content-Type: application/json
 	"error": false,
 	"status": "success",
 	"result":{
-		"gRecaptchaResponse":'3AHJ_VuvYIBNBW5yyv0zRYJ75VkOKvhKj9_xGBJKnQim....',"
+		"3AHJ_VuvYIBNBW5yyv0zRYJ75VkOKvhKj9_xGBJKnQim...."
 	}
 }
 ```
