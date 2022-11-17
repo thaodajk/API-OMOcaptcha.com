@@ -90,7 +90,7 @@ Content-Type: application/json
 	"error": false,
 	"status": "success",
 	"result":{
-		    "3|4|7"
+		    "index|index|index"
 	 }
 }
 ```

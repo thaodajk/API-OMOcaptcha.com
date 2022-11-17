@@ -103,7 +103,7 @@ Content-Type: application/json
 {
 	"error": false,
 	"status": "success",
-	"result": "x1_y1_x2_y2"
+	"result": "x1|y1|x2|y2"
 }
 ```
 
@@ -223,7 +223,7 @@ Content-Type: application/json
 {
 	"error": false,
 	"status": "success",
-	"result": "x1_y1_x2_y2"
+	"result": "x1|y1|x2|y2"
 }
 ```
 
@@ -477,7 +477,7 @@ Content-Type: application/json
 {
 	"error": false,
 	"status": "success",
-	"result": " X1:"33",Y1:"33",X2:"33",Y2:"33" "
+	"result": "x1|y1|x2|y2"
 }
 ```
 
