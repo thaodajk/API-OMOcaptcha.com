@@ -387,3 +387,101 @@ Content-Type: application/json
 * Máy chủ sẽ trả về <mark style="color:blue;"></mark> <mark style="color:blue;"></mark><mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`status = fail`</mark>
 {% endtab %}
 {% endtabs %}
+
+
+
+## Kéo thả trên phone
+
+<figure><img src=".gitbook/assets/z3887890537962_21d3e64d692fd2cb62769ed9de1c36fd.jpg" alt=""><figcaption></figcaption></figure>
+
+### 1.Tạo yêu cầu
+
+#### Request
+
+**POST :** `https://omocaptcha.com/api/createJob`
+
+| Name               | Type | Required | Description                                                                                                        |
+| ------------------ | ---- | -------- | ------------------------------------------------------------------------------------------------------------------ |
+| api\_token         | text | yes      | Khóa tài khoản khách hàng                                                                                          |
+| data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                                                                        |
+| data.image\_base64 | text | yes      | Hình ảnh chụp màn hình được mã hóa base64![](.gitbook/assets/z3887890537962\_21d3e64d692fd2cb62769ed9de1c36fd.jpg) |
+
+```json
+POST /createTask HTTP/1.1
+Host: api.anycaptcha.com
+Content-Type: application/json
+
+{
+	"api_token": "YOUR_API_KEY",
+	"data": {
+		"type_job_id": "24",
+		"image_base64": "image as base64 encoded"
+	 }
+}
+```
+
+#### Phản hồi
+
+{% tabs %}
+{% tab title="Thành công" %}
+```json
+{
+	"error": false,
+	"job_id": 123456,
+	"message": "Create job success."
+}
+```
+
+* Máy chủ sẽ trả về <mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`job_id`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> thành công
+{% endtab %}
+
+{% tab title="Thất bại" %}
+```json
+{
+	"errorId": 0,
+	"taskId": 123456
+}
+```
+
+* Máy chủ sẽ trả về <mark style="color:blue;">`error = true`</mark> và <mark style="color:blue;">`message`</mark> mô tả ngắn về trạng thái
+{% endtab %}
+{% endtabs %}
+
+### 2.Nhận kết quả yêu cầu
+
+#### Request
+
+**POST :** `https://omocaptcha.com/api/getJobResult`
+
+| Name       | Type   |  Required | Description               |
+| ---------- | ------ | --------- | ------------------------- |
+| api\_token | text   | yes       | Khóa tài khoản khách hàng |
+| job\_id    | number | yes       | Id của job vừa tạo        |
+
+```json
+POST /getTaskResult HTTP/1.1
+Host: omocaptcha.com
+Content-Type: application/json
+
+{
+	"api_token": "YOUR_API_KEY",
+	"job_id": 123456
+}
+```
+
+#### Phản hồi
+
+{% tabs %}
+{% tab title="Thành công" %}
+```json
+{
+	"error": false,
+	"status": "success",
+	"result": " X1:"33",Y1:"33",X2:"33",Y2:"33" "
+}
+```
+
+* Máy chủ sẽ trả về <mark style="color:blue;">`error = false`</mark> và <mark style="color:blue;">`status = success`</mark>
+* Đọc kết quả trong <mark style="color:blue;">`result`</mark>
+{% endtab %}
+{% endtabs %}
