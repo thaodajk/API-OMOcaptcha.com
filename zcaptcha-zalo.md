@@ -14,7 +14,7 @@ ZCaptcha là một loại hình ảnh xác thực phổ biến trông giống nh
 | ------------------ | ---- | -------- | ------------------------------------------------------------------------ |
 | api\_token         | text | yes      | Khóa tài khoản khách hàng                                                |
 | data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                              |
-| data.input         | text | yes      | Văn bản để nhân diên đối tượng![](<.gitbook/assets/ZCaptcha (1).png>)    |
+| data.input         | text | yes      | Văn bản để nhận diện đối tượng![](<.gitbook/assets/ZCaptcha (1).png>)    |
 | data.image\_base64 | text | yes      | Hình ảnh được mã hóa base64![](.gitbook/assets/55ebd204bc4955170c58.jpg) |
 
 ```json
