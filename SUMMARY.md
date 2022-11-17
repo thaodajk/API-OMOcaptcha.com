@@ -8,3 +8,4 @@
 * [reCAPTCHA V2](recaptcha-v2.md)
 * [hCAPTCHA](hcaptcha.md)
 * [Tiktok](tiktok.md)
+* [ZCaptcha (Zalo)](zcaptcha-zalo.md)
