@@ -92,19 +92,18 @@ Content-Type: application/json
 	"error": false,
 	"status": "success",
 	"result": {
-		"gRecaptchaResponse": "P0_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9....."
+		"P0_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9....."
 	}
 }
 ```
 
 * Máy chủ sẽ trả về <mark style="color:blue;">`error = false`</mark> và <mark style="color:blue;">`status = success`</mark>
 * Đọc kết quả trong <mark style="color:blue;">`result`</mark>
+* Trong bảng điều khiển dành cho nhà phát triển, tìm <mark style="color:purple;">textarea</mark> với <mark style="color:red;">name="</mark><mark style="color:blue;">h-captcha-response</mark><mark style="color:red;">"</mark> và đặt mã nhận được vào đó. Sau đó, nhấp vào nút <mark style="color:blue;">Check</mark>
 {% endtab %}
 
 {% tab title="Đang xử lý" %}
 ```json
-{
-	"error": false,
 	"status": "running",
 	"result": null
 }
