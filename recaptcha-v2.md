@@ -14,8 +14,8 @@ reCAPTCHA V2 còn được gọi là Tôi không phải là  reCAPTCHA là một
 | ------------------ | ---- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | api\_token         | text | yes      | Khóa tài khoản khách hàng                                                                                                                                                                          |
 | data.type\_job\_id | text | yes      | ID loại captcha cần nhận diện                                                                                                                                                                      |
-| data.websiteURL    | text | yes      | Địa chỉ của một trang web đích. Có thể được đặt ở bất kỳ đâu trên trang web, ngay cả trong khu vực thành viên. Nhân viên của chúng tôi không điều hướng đến đó mà thay vào đó mô phỏng chuyến thăm |
-| data.websiteKey    | text | yes      | Khoá trang web Recaptcha. Tìm hiểu cách tìm nó trong bài viết này.                                                                                                                                 |
+| data.website\_url  | text | yes      | Địa chỉ của một trang web đích. Có thể được đặt ở bất kỳ đâu trên trang web, ngay cả trong khu vực thành viên. Nhân viên của chúng tôi không điều hướng đến đó mà thay vào đó mô phỏng chuyến thăm |
+| data.website\_key  | text | yes      | Khoá trang web Recaptcha. Tìm hiểu cách tìm nó trong bài viết này.                                                                                                                                 |
 | task.isInvisible   | bool | no       | Chỉ định xem Recaptcha có ẩn hay không. Điều này sẽ hiển thị một widget thích hợp cho công nhân của chúng tôi.                                                                                     |
 
 ```json
@@ -26,7 +26,7 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "ID",
+		"type_job_id": "2",
 		"website_url": "http://mywebsite.com/recaptcha/test.php",
 		"website_key": "6Lc_aCMTAAAAABx7u2N0D1XnVbI_v6ZdbM6rYf16"
 	}

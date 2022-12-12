@@ -16,8 +16,8 @@ hCaptcha là một loại captcha khá mới thực sự giống với reCAPTCHA
 | ------------------ | ---- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | api\_token         | text | yes      | Khóa tài khoản khách hàng                                                                                                                                                                          |
 | data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                                                                                                                                                        |
-| data.websiteURL    | text | yes      | Địa chỉ của một trang web đích. Có thể được đặt ở bất kỳ đâu trên trang web, ngay cả trong khu vực thành viên. Nhân viên của chúng tôi không điều hướng đến đó mà thay vào đó mô phỏng chuyến thăm |
-| data.websiteKey    | text | yes      | Khoá trang web hCAPTCHA. Tìm hiểu cách tìm nó trong bài viết này.                                                                                                                                  |
+| data.website\_url  | text | yes      | Địa chỉ của một trang web đích. Có thể được đặt ở bất kỳ đâu trên trang web, ngay cả trong khu vực thành viên. Nhân viên của chúng tôi không điều hướng đến đó mà thay vào đó mô phỏng chuyến thăm |
+| data.website\_key  | text | yes      | Khoá trang web hCAPTCHA. Tìm hiểu cách tìm nó trong bài viết này.                                                                                                                                  |
 
 ```json
 POST /createTask HTTP/1.1
@@ -27,9 +27,9 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "ID",
-		"websiteURL": "https://hcaptcha.com/"
-		"websiteKey": "00000000-0000-0000-0000-000000000000"
+		"type_job_id": "11",
+		"website_url": "https://hcaptcha.com/",
+		"website_key": "00000000-0000-0000-0000-000000000000"
 	}
 }
 ```
@@ -92,7 +92,7 @@ Content-Type: application/json
 	"error": false,
 	"status": "success",
 	"result": {
-		"gRecaptchaResponse": "3AHJ_VuvYIBNBW5yyv0zRYJ75VkOK....."
+		"gRecaptchaResponse": "P0_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9....."
 	}
 }
 ```
