@@ -4,7 +4,11 @@ hCaptcha là một loại captcha khá mới thực sự giống với reCAPTCHA
 
 <figure><img src=".gitbook/assets/Screenshot 2021-09-26 101003.jpg" alt=""><figcaption><p>1.Ảnh hCAPTCHA</p></figcaption></figure>
 
-Đầu tiên, bạn cần tìm giá trị của tham số `data-sitekey` trong mã nguồn của trang web xem hướng dẫn tại đây
+Đầu tiên, bạn cần tìm giá trị của tham số `data-sitekey` trong mã nguồn của trang web. Mở bảng điều khiển dành cho nhà phát triển trong trình duyệt của bạn và tìm phần tử có thuộc tính `data-sitekey`
+
+```html
+<div class="h-captcha" data-sitekey="f7de0da3-3303-44e8-ab48-fa32ff8ccc7b" id="hcaptcha"></div>
+```
 
 ## 1.Tạo yêu cầu
 
@@ -17,7 +21,7 @@ hCaptcha là một loại captcha khá mới thực sự giống với reCAPTCHA
 | api\_token         | text | yes      | Khóa tài khoản khách hàng                                                                                                                                                                          |
 | data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                                                                                                                                                        |
 | data.website\_url  | text | yes      | Địa chỉ của một trang web đích. Có thể được đặt ở bất kỳ đâu trên trang web, ngay cả trong khu vực thành viên. Nhân viên của chúng tôi không điều hướng đến đó mà thay vào đó mô phỏng chuyến thăm |
-| data.website\_key  | text | yes      | Khoá trang web hCAPTCHA. Tìm hiểu cách tìm nó trong bài viết này.                                                                                                                                  |
+| data.website\_key  | text | yes      | Khoá trang web hCAPTCHA                                                                                                                                                                            |
 
 ```json
 POST /createTask HTTP/1.1
