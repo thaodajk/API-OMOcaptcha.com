@@ -10,3 +10,4 @@
 * [Tiktok](tiktok.md)
 * [ZCaptcha (Zalo)](zcaptcha-zalo.md)
 * [Coinmarketcap](coinmarketcap.md)
+* [Bytrade](bytrade.md)
