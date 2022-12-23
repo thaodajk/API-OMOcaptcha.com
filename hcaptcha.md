@@ -1,10 +1,10 @@
 # hCAPTCHA
 
-hCaptcha là một loại captcha khá mới thực sự giống với reCAPTCHA và trông giống như sau
+hCaptcha là một loại captcha khá mới thực sự giống với reCAPTCHA và trông giống như sau:
 
 <figure><img src=".gitbook/assets/Screenshot 2021-09-26 101003.jpg" alt=""><figcaption><p>1.Ảnh hCAPTCHA</p></figcaption></figure>
 
-Đầu tiên, bạn cần tìm giá trị của tham số `data-sitekey` trong mã nguồn của trang web. Mở bảng điều khiển dành cho nhà phát triển trong trình duyệt của bạn và tìm phần tử có thuộc tính `data-sitekey`
+Đầu tiên, bạn cần tìm giá trị của tham số <mark style="color:red;">`data-sitekey`</mark> trong mã nguồn của trang web. Mở bảng điều khiển dành cho nhà phát triển trong trình duyệt của bạn và tìm phần tử có thuộc tính <mark style="color:red;">`data-sitekey`</mark>
 
 ```html
 <div class="h-captcha" data-sitekey="f7de0da3-3303-44e8-ab48-fa32ff8ccc7b" id="hcaptcha"></div>

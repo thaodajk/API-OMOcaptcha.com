@@ -1,8 +1,14 @@
-# reCAPTCHA V2
+# reCAPTCHA-v2
 
-reCAPTCHA V2 còn được gọi là Tôi không phải là  reCAPTCHA là một loại hình ảnh xác thực rất phổ biến trông giống như thế này
+reCAPTCHA-v2 còn được gọi là captcha TÔI KHÔNG PHẢI ROBOT, reCAPTCHA là một loại hình ảnh xác thực rất phổ biến trông giống thế nay:
 
 <figure><img src=".gitbook/assets/recaptchav2.gif" alt=""><figcaption><p>2.Ảnh captcha reCAPTCHA v2</p></figcaption></figure>
+
+Đầu tiên, bạn cần tìm giá trị của tham số <mark style="color:red;">`data-sitekey`</mark> trong mã nguồn của trang web. Mở bảng điều khiển dành cho nhà phát triển trong trình duyệt của bạn và tìm phần tử có thuộc tính <mark style="color:red;">`data-sitekey`</mark>
+
+```html
+<div id="recaptcha-demo" class="g-recaptcha" data-sitekey="6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-" data-callback="onSuccess" data-action="action">
+```
 
 ## 1.Tạo yêu cầu
 
@@ -91,13 +97,14 @@ Content-Type: application/json
 	"error": false,
 	"status": "success",
 	"result":{
-		"3AHJ_VuvYIBNBW5yyv0zRYJ75VkOKvhKj9_xGBJKnQim...."
+		"03AHJ_VuvYIBNBW5yyv0zRYJ75VkOKvhKj9_xGBJKnQim...."
 	}
 }
 ```
 
 * Máy chủ sẽ trả về <mark style="color:blue;">`error = false`</mark> và <mark style="color:blue;">`status = success`</mark>
 * Đọc kết quả trong <mark style="color:blue;">`result`</mark>
+* Trong bảng điều khiển dành cho nhà phát triển, tìm <mark style="color:purple;">textarea</mark> với <mark style="color:red;">name="</mark><mark style="color:blue;">g-recaptcha-response</mark><mark style="color:red;">"</mark> và đặt mã nhận được vào đó. Sau đó, nhấp vào nút <mark style="color:blue;">Check</mark>
 {% endtab %}
 
 {% tab title="Đang xử lý" %}
