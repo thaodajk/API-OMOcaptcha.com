@@ -15,3 +15,5 @@
 | ImageToText(BIDV)               | 31         | BIDV và các loại captcha tương tự![](.gitbook/assets/8857ad09-76a8-f8f0-c462-c91696356841.jpg)              |
 | ImageToText(Vietcombank)        | 33         | Vietcombank và các loại captcha tương tự![](<.gitbook/assets/ba06d359-7c01-0959-7d3b-6e504c090bda (1).jpg>) |
 | Bytrade                         | 43         |                                                                                                             |
+| Audio Facebook                  | 41         |                                                                                                             |
+
