@@ -18,12 +18,12 @@ Sau khi lấy giá trị ở thuộc tính <mark style="color:red;">`src`</mark>
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-| Name               | Type  | Required | Description                                                |
-| ------------------ | ----- | -------- | ---------------------------------------------------------- |
-| api\_token         | text  | yes      | Khóa tài khoản khách hàng                                  |
-| data.type\_job\_id | text  | yes      | Id dịch vụ captcha cần giải                                |
-| data.image\_base64 | text  | yes      | Giá trị ở thuộc tính <mark style="color:red;">`src`</mark> |
-| data.width\_view   | numbe | yes      | ![](<.gitbook/assets/image (2).png>)                       |
+| Name               | Type  | Required | Description                                                                |
+| ------------------ | ----- | -------- | -------------------------------------------------------------------------- |
+| api\_token         | text  | yes      | Khóa tài khoản khách hàng                                                  |
+| data.type\_job\_id | text  | yes      | Id dịch vụ captcha cần giải                                                |
+| data.image\_base64 | text  | yes      | Giá trị ở thuộc tính <mark style="color:red;">`src`</mark>                 |
+| data.width\_view   | numbe | yes      | Kích thước chiều rộng hiện thị của ảnh![](<.gitbook/assets/image (2).png>) |
 
 ```json
 POST /createTask HTTP/1.1
