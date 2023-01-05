@@ -1,8 +1,8 @@
 # Audio Facebook
 
-Audio Facebook là một loại captcha trông giống như sau:
+Captcha Audio Facebook là một loại captcha trông giống như sau:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Captcha audio facebook</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Captcha Audio Facebook</p></figcaption></figure>
 
 Đầu tiên mở bảng điều khiển dành cho nhà phát triển trong trình duyệt của bạn và tìm phần tử có tên <mark style="color:red;">`captcha_persist_data`</mark> và lấy giá trị ở thuộc tính <mark style="color:red;">`value`</mark>
 
@@ -124,7 +124,7 @@ Content-Type: application/json
 	"error": false,
 	"status": "fail",
 	"result": null
-
+}
 ```
 
 * Máy chủ sẽ trả về <mark style="color:blue;"></mark> <mark style="color:blue;"></mark><mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`status = fail`</mark>

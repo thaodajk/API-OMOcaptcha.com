@@ -12,3 +12,4 @@
 * [Coinmarketcap](coinmarketcap.md)
 * [Bytrade](bytrade.md)
 * [Audio Facebook](audio-facebook.md)
+* [Nimo.tv](nimo.tv.md)
