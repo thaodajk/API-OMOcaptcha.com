@@ -113,7 +113,7 @@ Content-Type: application/json
 
 * Máy chủ sẽ trả về <mark style="color:blue;">`error = false`</mark> và <mark style="color:blue;">`status = success`</mark>
 * Đọc kết quả trong <mark style="color:blue;">`result`</mark>
-* Trong bảng điều khiển dành cho nhà phát triển, tìm đến nút có tên <mark style="color:blue;">`drag-button`</mark> và kéo nút từ trái qua phải bằng giá trị đã nhận được từ <mark style="color:blue;">`result`</mark>
+* Trong bảng điều khiển dành cho nhà phát triển, tìm đến nút có tên <mark style="color:blue;">`slide-block`</mark> và kéo nút từ trái qua phải bằng giá trị đã nhận được từ <mark style="color:blue;">`result`</mark>
 {% endtab %}
 
 {% tab title="Đang xử lý" %}
