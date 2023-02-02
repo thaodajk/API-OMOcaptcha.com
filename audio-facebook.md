@@ -18,11 +18,11 @@ Sau khi lấy giá trị ở thuộc tính <mark style="color:red;">`value`</mar
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-| Name               | Type | Required | Description                                                  |
-| ------------------ | ---- | -------- | ------------------------------------------------------------ |
-| api\_token         | text | yes      | Khóa tài khoản khách hàng                                    |
-| data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                  |
-| data.input         | text | yes      | Giá trị ở thuộc tính <mark style="color:red;">`value`</mark> |
+| Name               | Type | Required | Description                                                                                           |
+| ------------------ | ---- | -------- | ----------------------------------------------------------------------------------------------------- |
+| api\_token         | text | yes      | Khóa tài khoản khách hàng                                                                             |
+| data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                                                           |
+| data.input         | text | yes      | Giá trị ở thuộc tính <mark style="color:red;">`value`</mark> hoặc chuỗi base64 chuyển đổi từ file mp3 |
 
 ```json
 POST /createTask HTTP/1.1
