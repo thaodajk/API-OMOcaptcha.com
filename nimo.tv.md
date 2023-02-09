@@ -2,7 +2,7 @@
 
 Captcha Nimo.tv là một loại captcha trông giống như sau:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Captcha Nimo.tv</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Captcha Nimo.tv</p></figcaption></figure>
 
 Đầu tiên mở bảng điều khiển dành cho nhà phát triển trong trình duyệt của bạn và tìm đến 2 phần tử có tên <mark style="color:blue;">`bg-placeholder`</mark> và <mark style="color:blue;">`slide-block`</mark>  rồi lấy giá trị ở thuộc tính <mark style="color:red;">`src`</mark>
 
@@ -22,13 +22,13 @@ Sau khi lấy giá trị ở thuộc tính <mark style="color:red;">`src`</mark>
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-| Name               | Type  | Required | Description                                                                |
-| ------------------ | ----- | -------- | -------------------------------------------------------------------------- |
-| api\_token         | text  | yes      | Khóa tài khoản khách hàng                                                  |
-| data.type\_job\_id | text  | yes      | Id dịch vụ captcha cần giải                                                |
-| data.image\_base64 | text  | yes      | Giá trị ở thuộc tính <mark style="color:red;">`src`</mark>                 |
-| data.width\_view   | numbe | yes      | Kích thước chiều rộng hiện thị của ảnh![](<.gitbook/assets/image (2).png>) |
-| data.height\_view  | numbe | yes      |                                                                            |
+| Name               | Type  | Required | Description                                                                    |
+| ------------------ | ----- | -------- | ------------------------------------------------------------------------------ |
+| api\_token         | text  | yes      | Khóa tài khoản khách hàng                                                      |
+| data.type\_job\_id | text  | yes      | Id dịch vụ captcha cần giải                                                    |
+| data.image\_base64 | text  | yes      | Giá trị ở thuộc tính <mark style="color:red;">`src`</mark>                     |
+| data.width\_view   | numbe | yes      | Kích thước chiều rộng hiện thị của ảnh![](<.gitbook/assets/image (2) (1).png>) |
+| data.height\_view  | numbe | yes      |                                                                                |
 
 ```json
 POST /createTask HTTP/1.1

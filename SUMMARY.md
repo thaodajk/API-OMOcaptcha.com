@@ -6,6 +6,7 @@
 * [Danh sách dịch vụ](danh-sach-dich-vu.md)
 * [Hình ảnh thành văn bản](hinh-anh-thanh-van-ban.md)
 * [reCAPTCHA-v2](recaptcha-v2.md)
+* [reCAPTCHA-v2 Facebook](recaptcha-v2-facebook.md)
 * [hCAPTCHA](hcaptcha.md)
 * [Tiktok](tiktok.md)
 * [ZCaptcha (Zalo)](zcaptcha-zalo.md)
