@@ -24,7 +24,7 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "ID",
+		"type_job_id": "30",
 		"image_base64": "image as base64 encoded"
 	}
 }

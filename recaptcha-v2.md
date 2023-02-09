@@ -32,7 +32,7 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "2",
+		"type_job_id": "1",
 		"website_url": "http://mywebsite.com/recaptcha/test.php",
 		"website_key": "6Lc_aCMTAAAAABx7u2N0D1XnVbI_v6ZdbM6rYf16"
 	}

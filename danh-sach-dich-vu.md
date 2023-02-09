@@ -2,8 +2,8 @@
 
 | Tên dịch vụ                     | ID dịch vụ | Ảnh mẫu                                                                                                     |
 | ------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------- |
-| reCAPTCHA v2 (server 1)         | 1          |                                                                                                             |
-| reCAPTCHA v2 (server 2)         | 2          |                                                                                                             |
+| reCAPTCHA-v2                    | 1          |                                                                                                             |
+| reCAPTCHA-v2 Facebook           | 2          |                                                                                                             |
 | hCAPTCHA                        | 11         |                                                                                                             |
 | ZCaptcha (Zalo)                 | 13         |                                                                                                             |
 | Coinmarketcap                   | 14         |                                                                                                             |
