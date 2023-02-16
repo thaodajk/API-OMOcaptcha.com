@@ -28,7 +28,7 @@ Sau khi tải file mp3 về thì bạn cần phải chuyển file mp3 đó thàn
 | ------------------ | ---- | -------- | ----------------------------------- |
 | api\_token         | text | yes      | Khóa tài khoản khách hàng           |
 | data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải         |
-| data.input         | text | yes      | Chuỗi base64 chuyển đổi từ file mp3 |
+| data.image\_base64 | text | yes      | Chuỗi base64 chuyển đổi từ file mp3 |
 
 ```json
 POST /createTask HTTP/1.1
@@ -39,7 +39,7 @@ Content-Type: application/json
 	"api_token": "YOUR_API_KEY",
 	"data": {
 		"type_job_id": "41",
-		"input": "SUQzBAAAAAAAHFRTU0UAAAAIAAADR2983QHCQwPEBMW......."
+		"image_base64": "SUQzBAAAAAAAHFRTU0UAAAAIAAADR2983QHCQwPEBMW......."
 	}
 }
 ```
