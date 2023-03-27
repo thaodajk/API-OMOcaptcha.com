@@ -32,7 +32,7 @@ Captcha tiktok là một loại hình ảnh xác thực phổ biến trông gi�
 
 ```json
 POST /createTask HTTP/1.1
-Host: api.anycaptcha.com
+Host: omocaptcha.com
 Content-Type: application/json
 
 {
@@ -154,7 +154,7 @@ Content-Type: application/json
 
 ```json
 POST /createTask HTTP/1.1
-Host: api.anycaptcha.com
+Host: omocaptcha.com
 Content-Type: application/json
 
 {
@@ -285,7 +285,7 @@ Content-Type: application/json
 </div>
 
 <pre class="language-json"><code class="lang-json">POST /createTask HTTP/1.1
-Host: api.anycaptcha.com
+Host: omocaptcha.com
 Content-Type: application/json
 
 {
@@ -294,7 +294,8 @@ Content-Type: application/json
 		"type_job_id": "ID",
 <strong>		"image_base64":"Ảnh_bên_trong|Ảnh_bên_ngoài"
 </strong>	 }
-}</code></pre>
+}
+</code></pre>
 
 <mark style="color:red;">Lưu ý</mark> : Hai chuỗi base64 được ngăn cách băng ký tự '|'
 
@@ -408,7 +409,7 @@ Content-Type: application/json
 
 ```json
 POST /createTask HTTP/1.1
-Host: api.anycaptcha.com
+Host: omocaptcha.com
 Content-Type: application/json
 
 {
