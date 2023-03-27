@@ -17,7 +17,7 @@ reCAPTCHA-v2 Facebook còn được gọi là captcha TÔI KHÔNG PHẢI ROBOT, 
 
 ```json
 POST /createTask HTTP/1.1
-Host: api.anycaptcha.com
+Host: omocaptcha.com
 Content-Type: application/json
 
 {

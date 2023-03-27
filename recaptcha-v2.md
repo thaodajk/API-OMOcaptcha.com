@@ -26,7 +26,7 @@ reCAPTCHA-v2 còn được gọi là captcha TÔI KHÔNG PHẢI ROBOT, reCAPTCHA
 
 ```json
 POST /createTask HTTP/1.1
-Host: api.anycaptcha.com
+Host: omocaptcha.com
 Content-Type: application/json
 
 {
