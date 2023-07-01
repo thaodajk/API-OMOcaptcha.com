@@ -24,11 +24,7 @@ Sau khi tải file mp3 về thì bạn cần phải chuyển file mp3 đó thàn
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-| Name               | Type | Required | Description                         |
-| ------------------ | ---- | -------- | ----------------------------------- |
-| api\_token         | text | yes      | Khóa tài khoản khách hàng           |
-| data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải         |
-| data.image\_base64 | text | yes      | Chuỗi base64 chuyển đổi từ file mp3 |
+<table><thead><tr><th width="198">Name</th><th width="76">Type</th><th width="97">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Chuỗi base64 chuyển đổi từ file mp3</td></tr></tbody></table>
 
 ```json
 POST /createTask HTTP/1.1
@@ -56,7 +52,7 @@ Content-Type: application/json
 }
 ```
 
-* Máy chủ sẽ trả về <mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`job_id`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> thành công
+* Máy chủ sẽ trả về <mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`job_id`</mark> thành công
 {% endtab %}
 
 {% tab title="Thất bại" %}
@@ -77,10 +73,7 @@ Content-Type: application/json
 
 **POST :** `https://omocaptcha.com/api/getJobResult`
 
-| Name       | Type   |  Required | Description               |
-| ---------- | ------ | --------- | ------------------------- |
-| api\_token | text   | yes       | Khóa tài khoản khách hàng |
-| job\_id    | number | yes       | Id của job vừa tạo        |
+<table><thead><tr><th width="122">Name</th><th width="99">Type</th><th width="111"> Required</th><th width="412">Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>job_id</td><td>number</td><td>yes</td><td>Id của job vừa tạo</td></tr></tbody></table>
 
 ```json
 POST /getTaskResult HTTP/1.1
@@ -131,6 +124,6 @@ Content-Type: application/json
 }
 ```
 
-* Máy chủ sẽ trả về <mark style="color:blue;"></mark> <mark style="color:blue;"></mark><mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`status = fail`</mark>
+* Máy chủ sẽ trả về <mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`status = fail`</mark>
 {% endtab %}
 {% endtabs %}

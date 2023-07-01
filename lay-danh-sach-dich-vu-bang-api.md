@@ -6,9 +6,7 @@
 
 &#x20;**POST :**  `https://omocaptcha.com/api/getService`
 
-| Name        | Type | Required | Description               |
-| ----------- | ---- | -------- | ------------------------- |
-| `api_token` | text | yes      | Khóa tài khoản khách hàng |
+<table><thead><tr><th width="177">Name</th><th width="76">Type</th><th width="104">Required</th><th>Description</th></tr></thead><tbody><tr><td><code>api_token</code></td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr></tbody></table>
 
 ```json
 GET/createTask HTTP/1.1
@@ -56,8 +54,8 @@ Content-Type: application/json
   * <mark style="color:blue;">`require_field`</mark>
   * <mark style="color:blue;">`order`</mark>
   * <mark style="color:blue;">`image`</mark>
-  * <mark style="color:blue;">`avg_success`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> : <mark style="color:blue;"></mark> Tỉ lệ thành công
-  * <mark style="color:blue;">`avg_time`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> : <mark style="color:blue;"></mark> Thời gian giải
+  * <mark style="color:blue;">`avg_success`</mark> : Tỉ lệ thành công
+  * <mark style="color:blue;">`avg_time`</mark> : Thời gian giải
   * <mark style="color:blue;">`is_active`</mark>
   * <mark style="color:blue;">`created_at`</mark>
   * <mark style="color:blue;">`updated_at`</mark>
@@ -73,6 +71,6 @@ Content-Type: application/json
 ```
 
 * Máy chủ sẽ trả về <mark style="color:blue;">`error = true`</mark>
-* <mark style="color:blue;">`message`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> mô tả ngắn về trạng thái
+* <mark style="color:blue;">`message`</mark> mô tả ngắn về trạng thái
 {% endtab %}
 {% endtabs %}

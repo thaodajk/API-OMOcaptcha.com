@@ -1,19 +1,3 @@
 # Danh sách dịch vụ
 
-| Tên dịch vụ                     | ID dịch vụ | Ảnh mẫu                                                                                                     |
-| ------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------- |
-| reCAPTCHA-v2                    | 1          |                                                                                                             |
-| reCAPTCHA-v2 Facebook           | 2          |                                                                                                             |
-| hCAPTCHA                        | 11         |                                                                                                             |
-| ZCaptcha (Zalo)                 | 13         |                                                                                                             |
-| Coinmarketcap                   | 14         |                                                                                                             |
-| TikTok (Chọn 2 đối tượng - Web) | 22         |                                                                                                             |
-| TikTok (Xoay đối tượng - Web)   | 23         |                                                                                                             |
-| TikTok (Kéo thả - App)          | 24         |                                                                                                             |
-| TikTok (Chọn 2 đối tượng - App) | 25         |                                                                                                             |
-| ImageToText(All type supported) | 30         | Tự đông phát hiện                                                                                           |
-| ImageToText(BIDV)               | 31         | BIDV và các loại captcha tương tự![](.gitbook/assets/8857ad09-76a8-f8f0-c462-c91696356841.jpg)              |
-| ImageToText(Vietcombank)        | 33         | Vietcombank và các loại captcha tương tự![](<.gitbook/assets/ba06d359-7c01-0959-7d3b-6e504c090bda (1).jpg>) |
-| Bytrade                         | 43         |                                                                                                             |
-| Audio Facebook                  | 41         |                                                                                                             |
-| Nimo.tv                         | 44         |                                                                                                             |
+<table><thead><tr><th width="320">Tên dịch vụ</th><th width="109">ID dịch vụ</th><th>Ảnh mẫu</th></tr></thead><tbody><tr><td>reCAPTCHA-v2</td><td>1</td><td></td></tr><tr><td>reCAPTCHA-v2 Facebook</td><td>2</td><td></td></tr><tr><td>hCAPTCHA</td><td>11</td><td></td></tr><tr><td>ZCaptcha (Zalo)</td><td>13</td><td></td></tr><tr><td>Coinmarketcap</td><td>14</td><td></td></tr><tr><td>TikTok (Chọn 2 đối tượng - Web)</td><td>22</td><td></td></tr><tr><td>TikTok (Xoay đối tượng - Web)</td><td>23</td><td></td></tr><tr><td>TikTok (Kéo thả - App)</td><td>24</td><td></td></tr><tr><td>TikTok (Chọn 2 đối tượng - App)</td><td>25</td><td></td></tr><tr><td>ImageToText(All type supported)</td><td>30</td><td>Tự đông phát hiện </td></tr><tr><td>ImageToText(BIDV)</td><td>31</td><td>BIDV và các loại captcha tương tự<img src=".gitbook/assets/8857ad09-76a8-f8f0-c462-c91696356841.jpg" alt=""></td></tr><tr><td>ImageToText(Vietcombank)</td><td>33</td><td>Vietcombank và các loại captcha tương tự<img src=".gitbook/assets/ba06d359-7c01-0959-7d3b-6e504c090bda (1).jpg" alt=""></td></tr><tr><td>Bytrade</td><td>43</td><td></td></tr><tr><td>Audio Facebook</td><td>41</td><td></td></tr><tr><td>Nimo.tv</td><td>44</td><td></td></tr></tbody></table>

@@ -8,9 +8,7 @@ Kiểm tra số dư bằng của tài khoản bằng khóa tài khoản khách h
 
 &#x20;**POST:** `https://omocaptcha.com/api/getBalance`
 
-| Name       | Type | Required | Description               |
-| ---------- | ---- | -------- | ------------------------- |
-| api\_token | text | yes      | Khóa tài khoản khách hàng |
+<table><thead><tr><th width="177">Name</th><th width="76">Type</th><th width="104">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr></tbody></table>
 
 ```json
 GET/createTask HTTP/1.1

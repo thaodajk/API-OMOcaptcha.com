@@ -10,11 +10,7 @@ Bytrade là một loại hình ảnh xác thực phổ biến trông giống nh�
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-| Name               | Type | Required | Description                                                                |
-| ------------------ | ---- | -------- | -------------------------------------------------------------------------- |
-| api\_token         | text | yes      | Khóa tài khoản khách hàng                                                  |
-| data.type\_job\_id | text | yes      | Id dịch vụ captcha cần giải                                                |
-| data.image\_base64 | text | yes      | Hình ảnh được mã hóa base64![](<.gitbook/assets/New Bitmap image (1).png>) |
+<table><thead><tr><th width="200">Name</th><th width="76">Type</th><th width="104">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Hình ảnh được mã hóa base64<img src=".gitbook/assets/New Bitmap image (1).png" alt=""></td></tr></tbody></table>
 
 ```json
 POST /createTask HTTP/1.1
@@ -42,7 +38,7 @@ Content-Type: application/json
 }
 ```
 
-* Máy chủ sẽ trả về <mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`job_id`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> thành công
+* Máy chủ sẽ trả về <mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`job_id`</mark> thành công
 {% endtab %}
 
 {% tab title="Thất bại" %}
@@ -63,10 +59,7 @@ Content-Type: application/json
 
 **POST :** `https://omocaptcha.com/api/getJobResult`
 
-| Name       | Type   |  Required | Description               |
-| ---------- | ------ | --------- | ------------------------- |
-| api\_token | text   | yes       | Khóa tài khoản khách hàng |
-| job\_id    | number | yes       | Id của job vừa tạo        |
+<table><thead><tr><th width="122">Name</th><th width="99">Type</th><th width="111"> Required</th><th width="412">Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>job_id</td><td>number</td><td>yes</td><td>Id của job vừa tạo</td></tr></tbody></table>
 
 ```json
 POST /getTaskResult HTTP/1.1
