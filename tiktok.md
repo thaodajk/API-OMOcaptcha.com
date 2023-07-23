@@ -32,7 +32,7 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "ID",
+		"type_job_id": "22",
 		"image_base64": "image as base64 encoded",
 		"width_view": 340,
 		"height_view": 212
@@ -147,7 +147,7 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "ID",
+		"type_job_id": "25",
 		"image_base64": "image as base64 encoded"
 	 }
 }
@@ -271,7 +271,7 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "ID",
+		"type_job_id": "23",
 <strong>		"image_base64":"Ảnh_bên_trong|Ảnh_bên_ngoài"
 </strong>	 }
 }
@@ -386,7 +386,7 @@ Content-Type: application/json
 {
 	"api_token": "YOUR_API_KEY",
 	"data": {
-		"type_job_id": "24",
+		"type_job_id": "21",
 		"image_base64": "image as base64 encoded",
 		"width_view": 340
 	 }
