@@ -21,6 +21,7 @@ FunCaptcha là một loại hình ảnh xác thực phổ biến trông giống 
 </div>
 
 * Extension chrome hỗ trợ lấy ảnh captcha : [Download](https://drive.google.com/drive/folders/18XhnFFNIpCBKqIEZo3CFOndMwy\_z8Dbm?usp=drive\_link)
+* Extension chrome tự động giải FunCaptcha : [Download](https://drive.google.com/file/d/1uPiYdQHa3DNGk50Ym6CsZAmFB1j3Xm2j/view?usp=drive\_link)
 * Project C# mẫu : [Download](https://drive.google.com/file/d/1sp5OIOqSgY3X\_vSLcnS3EHQrcT5L8yp9/view?usp=drive\_link) pass: omocaptcha.com
 
 ## 1.Tạo yêu cầu
