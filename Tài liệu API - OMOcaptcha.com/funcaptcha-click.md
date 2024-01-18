@@ -29,7 +29,7 @@ FunCaptcha là một loại hình ảnh xác thực phổ biến trông giống 
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-<table><thead><tr><th width="199">Name</th><th width="88">Type</th><th width="112">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Hình ảnh được mã hóa base64 <mark style="color:red;">(không phải ảnh chụp màn hình)</mark><img src=".gitbook/assets/image.jpg" alt=""></td></tr><tr><td>data.text</td><td>text</td><td>yes</td><td>Văn bản câu hỏi captcha<img src=".gitbook/assets/screenshot_1704458293 (1).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="199">Name</th><th width="88">Type</th><th width="112">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Hình ảnh được mã hóa base64 <mark style="color:red;">(không phải ảnh chụp màn hình)</mark><img src=".gitbook/assets/image (1).jpg" alt=""></td></tr><tr><td>data.text</td><td>text</td><td>yes</td><td>Văn bản câu hỏi captcha<img src=".gitbook/assets/screenshot_1704458293 (1).png" alt="" data-size="original"></td></tr></tbody></table>
 
 ```json
 Host: omocaptcha.com
