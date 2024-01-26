@@ -12,6 +12,8 @@ Captcha tiktok là một loại hình ảnh xác thực phổ biến trông gi�
 
 </div>
 
+* Extension chrome tự động giải captcha TikTok : [Download](https://drive.google.com/drive/folders/18yiW1xGg\_gGImBBXdgX8ilMid2\_wzlc2)
+
 ## Chọn 2 đối tượng có hình dạng giống nhau trên web
 
 <figure><img src=".gitbook/assets/Ảnh chụp màn hình (55).png" alt=""><figcaption></figcaption></figure>
