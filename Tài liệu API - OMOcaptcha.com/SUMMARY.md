@@ -7,5 +7,6 @@
 * [Hình ảnh thành văn bản](hinh-anh-thanh-van-ban.md)
 * [reCAPTCHA-v2](recaptcha-v2.md)
 * [reCAPTCHA-v2 Facebook](recaptcha-v2-facebook.md)
+* [reCAPTCHA-v3](recaptcha-v3.md)
 * [Tiktok](tiktok.md)
 * [FunCaptcha click](funcaptcha-click.md)

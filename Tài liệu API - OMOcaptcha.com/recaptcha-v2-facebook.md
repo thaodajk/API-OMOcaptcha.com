@@ -91,8 +91,9 @@ Content-Type: application/json
 {% tab title="Đang xử lý" %}
 ```json
 {
-	"errorId": 0,
-	"status": "processing"
+	"error": false,
+	"status": "running",
+	"result": null
 }
 ```
 
