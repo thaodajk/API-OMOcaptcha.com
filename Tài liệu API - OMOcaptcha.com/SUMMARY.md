@@ -12,11 +12,5 @@
 * [FunCaptcha](funcaptcha/README.md)
   * [FunCaptcha click](funcaptcha/funcaptcha-click.md)
 * [Tiktok](tiktok.md)
-
-## Shopee
-
-* [Kéo thả trên web](shopee/keo-tha-tren-web.md)
-
-## Funcaptcha
-
-* [Page 1](funcaptcha-1/page-1.md)
+* [Shopee](shopee/README.md)
+  * [Kéo thả trên web](shopee/keo-tha-tren-web.md)
