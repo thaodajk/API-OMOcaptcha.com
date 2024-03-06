@@ -9,8 +9,12 @@
 * [reCAPTCHA-v2 Facebook](recaptcha-v2-facebook.md)
 * [reCAPTCHA-v3](recaptcha-v3.md)
 * [Tiktok](tiktok.md)
-* [FunCaptcha click](funcaptcha-click.md)
 
 ## Shopee
 
 * [Kéo thả trên web](shopee/keo-tha-tren-web.md)
+
+## Funcaptcha
+
+* [Page 1](funcaptcha/page-1/README.md)
+  * [FunCaptcha click](funcaptcha/page-1/funcaptcha-click.md)
