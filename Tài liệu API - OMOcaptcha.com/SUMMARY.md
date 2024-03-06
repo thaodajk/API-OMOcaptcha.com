@@ -5,7 +5,7 @@
 * [Lấy danh sách dịch vụ bằng API](lay-danh-sach-dich-vu-bang-api.md)
 * [Danh sách dịch vụ](danh-sach-dich-vu.md)
 * [Hình ảnh thành văn bản](hinh-anh-thanh-van-ban.md)
-* [reCaptcha](recaptcha/README.md)
+* [reCAPTCHA](recaptcha/README.md)
   * [reCAPTCHA-v2](recaptcha/recaptcha-v2.md)
   * [reCAPTCHA-v2 Facebook](recaptcha/recaptcha-v2-facebook.md)
   * [reCAPTCHA-v3](recaptcha/recaptcha-v3.md)
