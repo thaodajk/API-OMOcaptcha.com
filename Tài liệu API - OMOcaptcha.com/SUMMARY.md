@@ -10,3 +10,7 @@
 * [reCAPTCHA-v3](recaptcha-v3.md)
 * [Tiktok](tiktok.md)
 * [FunCaptcha click](funcaptcha-click.md)
+
+## Shopee
+
+* [Kéo thả trên web](shopee/keo-tha-tren-web.md)
