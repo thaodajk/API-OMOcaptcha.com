@@ -4,19 +4,19 @@ FunCaptcha là một loại hình ảnh xác thực phổ biến trông giống 
 
 <div>
 
-<figure><img src="../../.gitbook/assets/screenshot_1704458293.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot_1704458293.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/screenshot_1704458322.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot_1704458322.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/screenshot_1704458253.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot_1704458253.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/screenshot_1704458229.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot_1704458229.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -30,7 +30,7 @@ FunCaptcha là một loại hình ảnh xác thực phổ biến trông giống 
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-<table><thead><tr><th width="199">Name</th><th width="88">Type</th><th width="112">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Hình ảnh được mã hóa base64 <mark style="color:red;">(không phải ảnh chụp màn hình)</mark><img src="../../.gitbook/assets/image (1).jpg" alt=""></td></tr><tr><td>data.text</td><td>text</td><td>yes</td><td>Văn bản câu hỏi captcha<img src="../../.gitbook/assets/screenshot_1704458293 (1).png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="199">Name</th><th width="88">Type</th><th width="112">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Hình ảnh được mã hóa base64 <mark style="color:red;">(không phải ảnh chụp màn hình)</mark><img src="../.gitbook/assets/image (1).jpg" alt=""></td></tr><tr><td>data.text</td><td>text</td><td>yes</td><td>Văn bản câu hỏi captcha<img src="../.gitbook/assets/screenshot_1704458293 (1).png" alt="" data-size="original"></td></tr></tbody></table>
 
 ```json
 Host: omocaptcha.com
@@ -105,7 +105,7 @@ Content-Type: application/json
 * Máy chủ sẽ trả về <mark style="color:blue;">`error= false`</mark> và <mark style="color:blue;">`status = success`</mark>
 * Đọc kết quả trong <mark style="color:blue;">`result`</mark>
 
-<figure><img src="../../.gitbook/assets/screenshot_1704458322 (3).png" alt="" width="229"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot_1704458322 (3).png" alt="" width="229"><figcaption></figcaption></figure>
 
 * <mark style="color:red;">Lưu ý</mark>: Trong trường hợp captcha dạng này thì trên server sẽ trả về kết quả là vị trí của ảnh đúng và lúc bạn click vào nút bên phải bạn phải trừ đi một giá trị của kết quả server trả về bởi vì trên web ảnh của captcha đang ở vị trí thứ nhất, ví dụ server trả về kết quả là 5 thì bạn chỉ cần click vào nút bên phải 4 lần
 {% endtab %}

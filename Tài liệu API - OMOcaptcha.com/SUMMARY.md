@@ -5,9 +5,12 @@
 * [Lấy danh sách dịch vụ bằng API](lay-danh-sach-dich-vu-bang-api.md)
 * [Danh sách dịch vụ](danh-sach-dich-vu.md)
 * [Hình ảnh thành văn bản](hinh-anh-thanh-van-ban.md)
-* [reCAPTCHA-v2](recaptcha-v2.md)
-* [reCAPTCHA-v2 Facebook](recaptcha-v2-facebook.md)
-* [reCAPTCHA-v3](recaptcha-v3.md)
+* [reCaptcha](recaptcha/README.md)
+  * [reCAPTCHA-v2](recaptcha/recaptcha-v2.md)
+  * [reCAPTCHA-v2 Facebook](recaptcha/recaptcha-v2-facebook.md)
+  * [reCAPTCHA-v3](recaptcha/recaptcha-v3.md)
+* [FunCaptcha](funcaptcha/README.md)
+  * [FunCaptcha click](funcaptcha/funcaptcha-click.md)
 * [Tiktok](tiktok.md)
 
 ## Shopee
@@ -16,5 +19,4 @@
 
 ## Funcaptcha
 
-* [Page 1](funcaptcha/page-1/README.md)
-  * [FunCaptcha click](funcaptcha/page-1/funcaptcha-click.md)
+* [Page 1](funcaptcha-1/page-1.md)
