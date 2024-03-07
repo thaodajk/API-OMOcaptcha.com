@@ -2,7 +2,7 @@
 
 reCAPTCHA-v2 Facebook còn được gọi là captcha TÔI KHÔNG PHẢI ROBOT, reCAPTCHA là một loại hình ảnh xác thực rất phổ biến trông giống thế nay:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>2.Ảnh captcha reCAPTCHA-v2 Facebook</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>2.Ảnh captcha reCAPTCHA-v2 Facebook</p></figcaption></figure>
 
 ## 1.Tạo yêu cầu
 

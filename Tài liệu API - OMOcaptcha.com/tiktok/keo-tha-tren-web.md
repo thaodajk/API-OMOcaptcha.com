@@ -2,7 +2,7 @@
 
 Kéo thả trên web là một loại hình ảnh xác thực phổ biến trông giống như thế này
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 1.Tạo yêu cầu
 
@@ -10,7 +10,7 @@ Kéo thả trên web là một loại hình ảnh xác thực phổ biến trôn
 
 **POST :** `https://omocaptcha.com/api/createJob`
 
-<table><thead><tr><th width="323">Name</th><th width="92">Type</th><th width="104">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Hình ảnh chụp màn hình được mã hóa base64<br><img src="../.gitbook/assets/image (3).png" alt="" data-size="original"></td></tr><tr><td>data.width_view</td><td>number</td><td>yes</td><td>Chiều rộng ảnh hiển thị trên web<br><img src="../.gitbook/assets/c43f24100e8f4aef911b1332421090c7~tplv-188rlo5p4y-2 (1).jpeg" alt="" data-size="original"><br></td></tr></tbody></table>
+<table><thead><tr><th width="323">Name</th><th width="92">Type</th><th width="104">Required</th><th>Description</th></tr></thead><tbody><tr><td>api_token</td><td>text</td><td>yes</td><td>Khóa tài khoản khách hàng</td></tr><tr><td>data.type_job_id</td><td>text</td><td>yes</td><td>Id dịch vụ captcha cần giải</td></tr><tr><td>data.image_base64</td><td>text</td><td>yes</td><td>Hình ảnh chụp màn hình được mã hóa base64<br><img src="../.gitbook/assets/image (3) (1).png" alt="" data-size="original"></td></tr><tr><td>data.width_view</td><td>number</td><td>yes</td><td>Chiều rộng ảnh hiển thị trên web<br><img src="../.gitbook/assets/c43f24100e8f4aef911b1332421090c7~tplv-188rlo5p4y-2 (1).jpeg" alt="" data-size="original"><br></td></tr></tbody></table>
 
 ```json
 Host: omocaptcha.com

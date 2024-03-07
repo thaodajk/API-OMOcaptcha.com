@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Home](https://omocaptcha.com/home)
 * [Kiểm tra số dư](README.md)
 * [Lấy danh sách dịch vụ bằng API](lay-danh-sach-dich-vu-bang-api.md)
 * [Danh sách dịch vụ](danh-sach-dich-vu.md)
@@ -18,3 +19,4 @@
   * [Kéo thả trên phone](tiktok/keo-tha-tren-phone.md)
 * [Shopee](shopee/README.md)
   * [Kéo thả trên web](shopee/keo-tha-tren-web.md)
+* [Hướng dẫn cài extension](huong-dan-cai-extension.md)
