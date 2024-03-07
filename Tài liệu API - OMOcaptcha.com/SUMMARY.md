@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Tổng quát](README.md)
-* [Kiểm tra số dư](kiem-tra-so-du.md)
+* [Kiểm tra số dư](README.md)
 * [Lấy danh sách dịch vụ bằng API](lay-danh-sach-dich-vu-bang-api.md)
 * [Danh sách dịch vụ](danh-sach-dich-vu.md)
 * [Hình ảnh thành văn bản](hinh-anh-thanh-van-ban.md)
@@ -11,6 +10,11 @@
   * [reCAPTCHA-v3](recaptcha/recaptcha-v3.md)
 * [FunCaptcha](funcaptcha/README.md)
   * [FunCaptcha click](funcaptcha/funcaptcha-click.md)
-* [Tiktok](tiktok.md)
+* [Tiktok](tiktok/README.md)
+  * [Chon 2 đối tượng trên web](tiktok/chon-2-doi-tuong-tren-web.md)
+  * [Chọn 2 đối tượng trên phone](tiktok/chon-2-doi-tuong-tren-phone.md)
+  * [Xoay trên web](tiktok/xoay-tren-web.md)
+  * [Kéo thả trên web](tiktok/keo-tha-tren-web.md)
+  * [Kéo thả trên phone](tiktok/keo-tha-tren-phone.md)
 * [Shopee](shopee/README.md)
   * [Kéo thả trên web](shopee/keo-tha-tren-web.md)
