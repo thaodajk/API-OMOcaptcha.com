@@ -9,6 +9,8 @@
   * [reCAPTCHA-v2](recaptcha/recaptcha-v2.md)
   * [reCAPTCHA-v2 Facebook](recaptcha/recaptcha-v2-facebook.md)
   * [reCAPTCHA-v3](recaptcha/recaptcha-v3.md)
+* [hCaptcha](hcaptcha/README.md)
+  * [hCaptcha Token](hcaptcha/hcaptcha-token.md)
 * [FunCaptcha](funcaptcha/README.md)
   * [FunCaptcha click](funcaptcha/funcaptcha-click.md)
 * [Tiktok](tiktok/README.md)
